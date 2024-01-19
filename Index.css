@@ -1,0 +1,61 @@
+body {
+    background-color: #fffdfd;
+  }
+
+  nav.navbar {
+    background-color: #0e95ee; /* Cambia #3498db por el color que desees */
+  }
+
+ 
+
+  nav.navbar a.navbar-brand {
+    color: #ffffff; /* Cambia #fff por el color del texto que desees */
+    font-weight: bold; /* Puedes usar 'normal', 'bold', 'bolder', o un número como 400 o 700 para la negrita */
+    font-style: italic; /* Puedes usar 'normal' o 'italic' para el estilo cursiva */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-start; /* Alinear las tarjetas a la izquierda */
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan a la siguiente línea si es necesario */
+    gap: 10px; /* Añadir un espacio entre las tarjetas */
+  }
+  
+  .card {
+     width: 200px;
+  }
+
+  .custom-card {
+    background-color: #acd3ed; /* Color de fondo deseado */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-img-top {
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */
+    height: 150px; /* Mantiene la proporción original de la imagen */
+  }
+  
+  .custom-card .card-body {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .custom-card .card-text {
+    color: #ffffff; /* Color del texto en la card */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: auto;
+  }
+  
+  .custom-btn {
+    width: 50px; /* Tamaño que desees */
+    height: 50px; /* Tamaño que desees */
+}
+
